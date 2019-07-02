@@ -1,12 +1,26 @@
 .site-header{
+    color: rgb(255, 0, 234);
+    height: 50vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    background-color: rgba(151, 196, 28, 0.397);
+}
+
+.personal-details{
     background-color: rgba(151, 196, 28, 0.397);
     color: rgb(255, 0, 234);
     height: 100vh;
     font-family: monospace;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .profile-pic{
@@ -17,12 +31,31 @@
 }
 
 .site-header-content{
-    margin: 10px;
+    color: blue;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.site-content{
+    color: black;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;  
+}
+
+.table-content{
+    background-color: rgba(151, 196, 28, 0.397);
 }
 
 .course-link{
+    justify-content: left;
     color: rgb(255, 0, 234);
 }
+
+.personal-link{
+    color: rgb(255, 0, 234);
+
 
 body{
     margin: 0;
